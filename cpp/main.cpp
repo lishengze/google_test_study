@@ -33,8 +33,8 @@ int main(int argc, char* argv[])
 {
 	printf("---------- Test GoogleTest ----------\n");
 
-    testing::GTEST_FLAG(filter) = "Algo*";
-    testing::GTEST_FLAG(repeat) = 2;
+    testing::GTEST_FLAG(filter) = "Algo*:Share*";
+    testing::GTEST_FLAG(repeat) = 1;
     testing::GTEST_FLAG(output) = "xml:";
 
 	testing::InitGoogleTest(&argc, argv);

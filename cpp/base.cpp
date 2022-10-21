@@ -71,7 +71,6 @@ TEST(AlgoTest, AlgoMock) {
   EXPECT_EQ(0, algoObj.FactorialCombine(1));
   EXPECT_EQ(1, algoObj.FactorialCombine(1));
 
-
   if (mock_algo_) delete mock_algo_;
 }
 
